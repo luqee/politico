@@ -61,3 +61,52 @@ nav.top-menu div#navigation ul li.active a{
 nav.top-menu div#navigation ul li:nth-child(1n+2){
     margin-left: 10px;
 }
+/* Header section */
+header {
+    height: 300px;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: inherit;
+    width: 70%;
+    margin: 0 auto;
+}
+header .container div.cta{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+header .container div.cta span.header-title{
+    font-size: 2em;
+    font-weight: bold;
+}
+header .container div.cta p.cta-quote{
+    font-size: 1.5em;
+}
+
+header .container div.cta .cta-buttons{
+    margin: 0 auto;
+}
+header .container div.cta button{
+    width: fit-content;
+    border: 0;
+    padding: 10px 20px;
+    margin-bottom: 5px;
+    background-color: #ff6600;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+header .container div.cta .cta-buttons span.login{
+
+}
+header .container div.cta .cta-buttons span.login a{
+    text-decoration: none;
+    color: #ff6600;
+}
+header .container div.header-image img{
+    width: 300px;
+    height: 250px;
+}
