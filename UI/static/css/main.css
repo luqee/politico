@@ -12,6 +12,7 @@ body {
     margin: 0;
 }
 div.wrap{
+    height: inherit;
     display: flex;
     flex-direction: column;
 }
