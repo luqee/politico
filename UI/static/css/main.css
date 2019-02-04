@@ -201,7 +201,7 @@ div.admin-content .main-view{
     flex-basis: 70%;
     /* margin-left: 10px;
     margin-top: 16px; */
-    margin: 16px auto 0 16px;
+    margin: 16px auto 10px 16px;
 }
 div.admin-home .container{
     display: flex;
@@ -229,6 +229,22 @@ div.admin-create-party .container{
     flex-direction: column;
     width: 50%;
     margin: 0 auto;
+}
+/* Admin view parties */
+div.admin-view-parties .party{
+    display: flex;
+    border-bottom: 2px solid #ff6600;
+}
+div.admin-view-parties .party img{
+    width: 100px;
+    height: 100px;
+}
+div.admin-view-parties .party .actions{
+    margin-left: auto;
+    align-self: center;
+}
+div.admin-view-parties .party .actions button{
+    background-color: #ff6600;
 }
 /* div.admin-create-party {
     display: flex;
