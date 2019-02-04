@@ -196,5 +196,30 @@ div.admin-content .side-menu .menu li a{
     text-decoration: none;
     color: #ff6600;
 }
+/* admin main view */
 div.admin-content .main-view{
+    flex-basis: 70%;
+    margin-left: 10px;
+    margin-top: 16px;
+}
+div.admin-content .main-view .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+div.admin-content .main-view .panel{
+    /* flex-basis: 50%; */
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ff6600;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.admin-content .panel span.panel-link a{
+    color: #ff6600;
+    text-decoration: none;
 }
