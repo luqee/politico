@@ -34,6 +34,15 @@
                     </div>
                 </div>
                 <div class="main-view admin-view-parties">
+                    <div id="deletePartyModal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p>Are you sure you want to delete</p><br>
+                            <span>Chama Kikuu</span><br>
+                            <button>Delete</button>
+                        </div>
+                    </div>
                     <div class="parties container">
                         <div class="party">
                             <img src="../../static/images/uploads/party-logo.jpeg" alt="party-logo">
@@ -45,7 +54,7 @@
                             </div>
                             <div class="actions">
                                 <button>Edit</button>
-                                <button>Delete</button>
+                                <button onclick="showModal()">Delete</button>
                             </div>
                         </div>
                         <div class="party">
@@ -58,7 +67,7 @@
                             </div>
                             <div class="actions">
                                 <button>Edit</button>
-                                <button>Delete</button>
+                                <button onclick="showModal()">Delete</button>
                             </div>
                         </div>
                         <div class="party">
@@ -71,7 +80,7 @@
                             </div>
                             <div class="actions">
                                 <button>Edit</button>
-                                <button>Delete</button>
+                                <button onclick="showModal()">Delete</button>
                             </div>
                         </div>
                         <div class="party">
@@ -84,7 +93,7 @@
                             </div>
                             <div class="actions">
                                 <button>Edit</button>
-                                <button>Delete</button>
+                                <button onclick="showModal()">Delete</button>
                             </div>
                         </div>
                     </div>
