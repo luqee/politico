@@ -202,12 +202,12 @@ div.admin-content .main-view{
     margin-left: 10px;
     margin-top: 16px;
 }
-div.admin-content .main-view .container{
+div.admin-home .main-view .container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-div.admin-content .main-view .panel{
+div.admin-home .main-view .panel{
     /* flex-basis: 50%; */
     width: 300px;
     height: 200px;
@@ -219,7 +219,7 @@ div.admin-content .main-view .panel{
     justify-content: center;
     align-items: center;
 }
-div.admin-content .panel span.panel-link a{
+div.admin-home .panel span.panel-link a{
     color: #ff6600;
     text-decoration: none;
 }
