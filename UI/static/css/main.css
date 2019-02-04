@@ -232,6 +232,7 @@ div.admin-create-party .container{
     margin: 0 auto;
 }
 /* Admin view parties */
+.admin-view-offices .office,
 div.admin-view-parties .party{
     display: flex;
     border-bottom: 2px solid #ff6600;
@@ -240,10 +241,12 @@ div.admin-view-parties .party img{
     width: 100px;
     height: 100px;
 }
+.admin-view-offices .office .actions,
 div.admin-view-parties .party .actions{
     margin-left: auto;
     align-self: center;
 }
+.admin-view-offices .office .actions button,
 div.admin-view-parties .party .actions button{
     background-color: #ff6600;
 }
