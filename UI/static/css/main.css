@@ -155,12 +155,12 @@ footer .footer-content ul a{
     margin-bottom: 10px;
     width: 300px;
 }
-.registration-page form .form-row{
+form .form-row{
     display: flex;
     flex-direction: column;
     margin-bottom: 5px;
 }
-.registration-page form input{
+form input{
     padding: 5px;
 }
 form button{
@@ -196,18 +196,19 @@ div.admin-content .side-menu .menu li a{
     text-decoration: none;
     color: #ff6600;
 }
-/* admin main view */
+/* admin home view */
 div.admin-content .main-view{
     flex-basis: 70%;
-    margin-left: 10px;
-    margin-top: 16px;
+    /* margin-left: 10px;
+    margin-top: 16px; */
+    margin: 16px auto 0 16px;
 }
-div.admin-content .main-view .container{
+div.admin-home .container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-div.admin-content .main-view .panel{
+.admin-home .panel{
     /* flex-basis: 50%; */
     width: 300px;
     height: 200px;
@@ -219,7 +220,18 @@ div.admin-content .main-view .panel{
     justify-content: center;
     align-items: center;
 }
-div.admin-content .panel span.panel-link a{
+div.admin-home .panel span.panel-link a{
     color: #ff6600;
     text-decoration: none;
 }
+div.admin-create-party .container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+/* div.admin-create-party {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+} */

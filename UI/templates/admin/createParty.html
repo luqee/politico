@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Politico</title>
-        <link rel="stylesheet" href="../static/css/main.css">
+        <link rel="stylesheet" href="../../static/css/main.css">
     </head>
     <body>
         <div class="wrap">
@@ -20,7 +20,7 @@
                     </div>
                 </div>
             </nav>
-            <div class="content admin-content admin-home">
+            <div class="content admin-content">
                 <div class="side-menu">
                     <div class="menu">
                         <ul>
@@ -33,36 +33,27 @@
                         </ul>
                     </div>
                 </div>
-                <div class="main-view">
+                <div class="main-view admin-create-party">
                     <div class="container">
-                        <div class="panel">
-                            <span></span>
-                            <div class="details">
-                                <span>(25) Registred parties</span><br/>
-                                <span class="panel-link"><a href="dashParties.html">More details..</a></span>
-                            </div>
-                        </div>
-                        <div class="panel">
-                            <span></span>
-                            <div class="details">
-                                <span>(120) Government Offices</span>
-                                <br/>
-                                <span class="panel-link"><a href="dashOffices.html">More details..</a></span>
-                            </div>
-                        </div>
-                        <div class="panel">
-                            <span></span>
-                            <div class="details">
-                                <span>(503) Registred politicians</span><br/>
-                                <span class="panel-link"><a href="dashPoliticians.html">More details..</a></span>
-                            </div>
-                        </div>
-                        <div class="panel">
-                            <span></span>
-                            <div class="details">
-                                <span>(373) Candidates</span><br/>
-                                <span class="panel-link"><a href="dashCandidates.html">More details..</a></span>
-                            </div>
+                        <h3>Create Political Party</h3>
+                        <div class="form-container">
+                            <form action="" id="create-party">
+                                <div class="form-row">
+                                    <label for="name">Name</label>
+                                    <input type="text" name="name" id="name">
+                                </div>
+                                <div class="form-row">
+                                    <label for="motto">Motto</label>
+                                    <input type="text" name="motto" id="motto">
+                                </div>
+                                <div class="form-row">
+                                    <label for="description">Description</label>
+                                    <textarea name="description" id="description" cols="30" rows="10"></textarea>
+                                </div>
+                                <div class="form-row">
+                                    <button type="submit">Create</button>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
