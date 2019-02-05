@@ -254,6 +254,22 @@ div.admin-view-parties .party .actions{
 div.admin-view-parties .party .actions button{
     background-color: #ff6600;
 }
+/* User dash */
+div.user-content .user-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div.user-home .election-results .post{
+    border-bottom: 2px solid #ff6600;
+    margin-bottom: 5px;
+}
+div.user-home .election-results .post span.label{
+    font-weight: bold;
+}
+div.user-home .election-results .post span.winner{
+    color: #ff6600;
+}
 /* Delete  Modal */
 
 /* The Modal (background) */
