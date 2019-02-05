@@ -177,32 +177,36 @@ form button{
     text-decoration: none;
     color: #ff6600;
 }
-/* Admin page */
-
+/* Admin page, user page */
+div.user-content,
 div.admin-content{
     display: flex;
     width: 80%;
 }
+div.user-content .side-menu,
 div.admin-content .side-menu{
     flex-basis: 30%;
 }
+div.user-content .side-menu .menu li,
 div.admin-content .side-menu .menu li{
     list-style-type: none;
     background-color: #333;
     border-bottom: 2px solid #ff6600;
     padding: 10px;
 }
+div.user-content .side-menu .menu li a,
 div.admin-content .side-menu .menu li a{
     text-decoration: none;
     color: #ff6600;
 }
-/* admin home view */
+div.user-content .main-view,
 div.admin-content .main-view{
     flex-basis: 70%;
     /* margin-left: 10px;
     margin-top: 16px; */
     margin: 16px auto 10px 16px;
 }
+/* admin home view */
 div.admin-home .container{
     display: flex;
     flex-wrap: wrap;
@@ -249,6 +253,22 @@ div.admin-view-parties .party .actions{
 .admin-view-offices .office .actions button,
 div.admin-view-parties .party .actions button{
     background-color: #ff6600;
+}
+/* User dash */
+div.user-content .user-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div.user-home .election-results .post{
+    border-bottom: 2px solid #ff6600;
+    margin-bottom: 5px;
+}
+div.user-home .election-results .post span.label{
+    font-weight: bold;
+}
+div.user-home .election-results .post span.winner{
+    color: #ff6600;
 }
 /* Delete  Modal */
 
