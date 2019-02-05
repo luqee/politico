@@ -1,5 +1,5 @@
 // Get the modal
-var modal = document.getElementById('deletePartyModal');
+var modal = document.getElementById('deleteModal');
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
