@@ -3,12 +3,11 @@ var modal = document.getElementById('deleteModal');
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
-var userSignupButton = document.getElementById('userSignupButton');
-userSignupButton.onclick = userSignup;
+
 // When the user clicks on <span> (x), close the modal
-// span.onclick = function() {
-//   modal.style.display = "none";
-// }
+span.onclick = function() {
+  modal.style.display = "none";
+}
 
 var showModal = function(){
     modal.style.display = "block";
@@ -22,10 +21,4 @@ window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
-}
-
-var userSignup = function(e){
-  e.preventDefault();
-  window.location.href = 'userLogin.html';
-  console.log(window.location.href)
 }
