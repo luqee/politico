@@ -26,8 +26,3 @@ var userSignup = function(e){
   window.location.href = 'userLogin.html';  
 
 }
-
-var userSignup = function(e){
-  e.preventDefault();
-  window.location.href = 'userLogin.html';
-}
