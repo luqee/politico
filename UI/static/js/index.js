@@ -27,5 +27,4 @@ window.onclick = function(event) {
 var userSignup = function(e){
   e.preventDefault();
   window.location.href = 'userLogin.html';
-  console.log(window.location.href)
 }
