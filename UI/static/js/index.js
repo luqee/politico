@@ -21,4 +21,8 @@ window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
+var userSignup = function(e){
+  e.preventDefault();
+  window.location.href = 'userLogin.html';  
+
 }
