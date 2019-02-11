@@ -4,18 +4,18 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Politico</title>
-        <link rel="stylesheet" href="../../static/css/main.css">
+        <link rel="stylesheet" href="../static/css/main.css">
     </head>
     <body>
         <div class="wrap">
             <nav class="top-menu">
                 <div class="container">
-                    <div id="logo"> <a href="../index.html">Politico</a></div>
+                    <div id="logo"> <a href="index.html">Politico</a></div>
                     <div id="navigation">
                         <ul>
-                            <li> <a href="../index.html">Home</a></li>
-                            <li> <a href="../index.html#about">About</a></li>
-                            <li> <a href="../index.html#Contact">Contact</a></li>
+                            <li class="active"> <a href="#">Home</a></li>
+                            <li> <a class="active" href="#">About</a></li>
+                            <li> <a href="#">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -23,7 +23,7 @@
             <div class="content registration-page">
                 <p>Create your Politico account. It's free and only takes a minute</p>
                 <div class="form-container">
-                    <form action="" id="signup-form" onsubmit="userSignup(event)">
+                    <form action="" id="signup-form">
                         <div class="form-row">
                             <label for="username">Display name</label>
                             <input type="text" name="username" id="username">
@@ -41,8 +41,8 @@
                             <input type="password" name="re-password" id="re-password">
                         </div>
                         <div class="form-row">
-                            <button type="submit" id="userSignupButton">Sign up</button>
-                            Already have an account? <a href="userLogin.html">Login</a>
+                            <button type="submit">Sign up</button>
+                            Already have an account? <a href="userLogin.html">Login</a> 
                         </div>
                     </form>
                 </div>
@@ -60,14 +60,14 @@
                     <div class="footer-content">
                         <h3>Navigation</h3>
                         <ul>
-                            <li> <a href="../index.html">Home</a></li>
-                            <li> <a href="../index.html#about">About</a></li>
-                            <li> <a href="../index.html#Contact">Contact</a></li>
+                            <li> <a href="#">Home</a></li>
+                            <li> <a href="#">About</a></li>
+                            <li> <a href="#">Contact</a></li>
                         </ul>
                     </div>
                 </div>
             </footer>
         </div>
-      <script src="../../static/js/index.js"></script>
+      <script src="../static/js/index.js"></script>
     </body>
 </html>
