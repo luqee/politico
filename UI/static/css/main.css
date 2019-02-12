@@ -303,6 +303,49 @@ div.user-home .election-results .post span.winner{
     padding: 5px 10px;
     /* align-self: center; */
 }
+/* User vote page */
+.user-vote .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user-vote .voting-section{
+    width: 100%;
+}
+.user-vote .voting-section .info {
+    height: 100px;
+    background-color: #333;
+    color: #ff6600;
+    font-size: 1.6em;
+    display: flex;
+    align-items: center;
+}
+.voting-section .candidates .candidate {
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.voting-section .candidates .candidate span{
+    display: block;
+}
+.voting-section .candidates .candidate span:nth-child(odd){
+    font-weight: bold;
+}
+.voting-section .candidate .details{
+    width: 100%;
+    padding-left: 10px;
+}
+.voting-section .candidate .details span.name{
+    color: #ff6600;
+}
+.voting-section .candidate .actions button {
+    background-color: #333;
+    color: #ff6600;
+    font-size: 1.12em;
+    padding: 5px 10px;
+    border: 0;
+}
 /* Delete  Modal */
 /* The Modal (background) */
 .modal {
