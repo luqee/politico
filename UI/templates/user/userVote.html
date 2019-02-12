@@ -31,6 +31,15 @@
                     </div>
                 </div>
                 <div class="main-view user-vote">
+                    <div id="voteModal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p>Are you sure you want to cast this vote</p><br>
+                            <button onclick="hideVoteModal()">Cancel</button>
+                            <button onclick="castVote()">Ok</button>
+                        </div>
+                    </div>
                     <div class="container">
                         <h2>Elect your Preferred Candidate for:</h2>
                         <div class="voting-header">
@@ -52,16 +61,16 @@
                                         <span>Narok</span><br>
                                     </div>
                                     <div class="actions">
-                                        <button>Select</button>
+                                        <button onclick="selectCandidate()">Select</button>
                                     </div>
                                 </div>
                                 <div class="candidate">
                                     <span class="fas fa fa-user-tie"></span>
                                     <div class="details">
                                         <span class="label">Candidate Name:</span>
-                                        <span>Salome Waweru</span>
+                                        <span>Jeff Waweru</span>
                                         <span class="label">Home County:</span>
-                                        <span>Narok</span><br>
+                                        <span>Kilifi</span><br>
                                     </div>
                                     <div class="actions">
                                         <button>Select</button>
@@ -71,9 +80,9 @@
                                     <span class="fas fa fa-user-tie"></span>
                                     <div class="details">
                                         <span class="label">Candidate Name:</span>
-                                        <span>Salome Waweru</span>
+                                        <span>Collin wambua</span>
                                         <span class="label">Home County:</span>
-                                        <span>Narok</span><br>
+                                        <span>Thika</span><br>
                                     </div>
                                     <div class="actions">
                                         <button>Select</button>
@@ -118,6 +127,6 @@
                 </div>
             </footer>
         </div>
-      <script src="../static/js/index.js"></script>
+      <script src="../../static/js/userVote.js"></script>
     </body>
 </html>
